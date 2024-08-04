@@ -6,4 +6,4 @@ This is just a demo landing page just containing basic front-end component
       2 This home page not finalized.
 
 
-              ####if you have any queries or changes you want to make then contact me in the messenger chat or call me at ######
+              ####if you have any queries or changes you want to make then contact me in the messenger chat or call me at 9749319511######
