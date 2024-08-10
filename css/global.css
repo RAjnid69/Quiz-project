@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap");
+
+:root{
+
+  
+  /* Background colors */
+  --bg-wild-blue-yonder: hsla(216, 33%, 68%, 1);
+  --bg-carolina-blue: hsla(199, 89%, 49%, 1);
+  --bg-prussian-blue: hsla(216, 33%, 20%, 1);
+  --bg-oxford-blue: hsla(222, 44%, 13%, 1);
+  --bg-oxford-blue-2: hsla(222, 47%, 11%, 1);
+
+
+  /** Text colors */
+    --text-white: hsla(0, 0%, 100%, 1);
+    --text-alice-blue: hsla(216, 100%, 95%, 1);
+    --text-columbia-blue: hsla(199, 69%, 84%, 1);
+    --text-wild-blue-yonder: hsla(216, 33%, 68%, 1);
+    --text-carolina-blue: hsla(199, 89%, 49%, 1);
+    --text-shadow-blue: hsla(217, 24%, 59%, 1);
+    --text-slate-gray: hsla(217, 17%, 48%, 1);
+
+
+ /* primary colors */
+  --primary-color: #12bfc2;
+  --secondary: #dbf2ff;
+  --black: #141414;
+  --white: #fff;
+  --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+
+   /** Gradient colors */
+   --gradient-1: linear-gradient(90deg, #0ea5ea, #12cdcd 51%);
+   --gradient-2: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea);
+   --gradient-3: linear-gradient(0deg, #000d1a, transparent);
+}
+
+
+*{
+  font-family: 'DM Sans', sans-serif;
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  outline: none; border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-oxford-blue-2);
+  
+  font-family: var(--fontFamily-noto_sans);
+  font-size: 1.6rem;
+  line-height: var(--lineHeight-4);
+  overflow-y: overlay;
+}
