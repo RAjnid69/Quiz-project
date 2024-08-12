@@ -3,7 +3,7 @@
 .progress-container {
   width: full;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   margin-top: 40px;
 }
 
